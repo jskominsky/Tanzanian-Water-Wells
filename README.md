@@ -1,6 +1,6 @@
 # Tanzanian Water Wells
-Phase 3 Project
-
+## Phase 3 Project
+### Author
 - Jordan Kominsky: 
 [LinkedIn](https://www.linkedin.com/in/jordan-kominsky/) | 
 [GitHub](https://github.com/jskominsky) | 
