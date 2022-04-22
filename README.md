@@ -30,3 +30,16 @@ I used a variety of different classification models to improve the ability of th
 ![1_8qTfnlqpcU-TSZ3MsN1zAA](https://user-images.githubusercontent.com/100230332/164614263-d33bc7e8-b8b4-4fe8-ac90-26df68641b5c.jpg)
 
 Given more time I would like to use a time series analysis to better predict when functional wells will begin to break down and need repair.  I would also like to develop an application that allows the charity to plug in the specifications of wells they are considering buildng (ie location, waterpoint type, water quality, etc) and get an instant prediction about if the well will be functional or not and how long they can expect the well to remain functional.  This will help the charity properly allocate their resources.
+
+## Repository Structure
+
+```
+ ├── Data
+ ├── Images
+ ├── Pickles
+ ├── gitignore
+ ├── Final_Notebook.ipynb
+ ├── Tanzanian Water Wells.pdf
+ └── README.md
+ ├──LICENCE
+```
