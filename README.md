@@ -19,7 +19,12 @@ My data was found on drivendata.com and has nearly 60,000 data points regarding 
 ![functional_bar](https://user-images.githubusercontent.com/100230332/164612880-99a5705d-f86d-4f0f-960e-ac591d36dfdc.jpeg)
 
 ## Methods
-I used a variety of different classification models to improve the ability of the model to predict whether a water wall was functional or non functional.  
+I used a variety of different classification models to improve the ability of the model to predict whether a water wall was functional or non functional.  My best performing model was my XGBoost Classifier, which had an accuracy of 86% when predicting functional or non functional.
 
 <img width="337" alt="Confusion Matrix" src="https://user-images.githubusercontent.com/100230332/164613799-d6e0a7a0-f7a6-4ee8-a157-070eef0a944d.png">
 
+## Next Steps
+
+![1_8qTfnlqpcU-TSZ3MsN1zAA](https://user-images.githubusercontent.com/100230332/164614263-d33bc7e8-b8b4-4fe8-ac90-26df68641b5c.jpg)
+
+Given more time I would like to use a time series analysis to better predict when functional wells will begin to break down and need repair.  I would also like to develop an application that allows the charity to plug in the specifications of wells they are considering buildng (ie location, waterpoint type, water quality, etc) and get an instant prediction about if the well will be functional or not and how long they can expect the well to remain functional.  This will help the charity properly allocate their resources.
