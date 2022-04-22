@@ -33,9 +33,15 @@ I used a variety of different classification models to improve the ability of th
 
 My best performing model was my XGBoost Classifier with default values, which had an accuracy of 86% on my training data, and an accuracy 84.9% on my training data, when predicting functional or non functional. The accuracy for just 'functional' status was 75.39% and the accuracy for just ' non functional' status was 93.99%
 
+### XGBoost Confusion Matrix on Training Data
 
 <img width="337" alt="Confusion Matrix" src="https://user-images.githubusercontent.com/100230332/164613799-d6e0a7a0-f7a6-4ee8-a157-070eef0a944d.png">
-![Confusion Matrix Test Data](https://user-images.githubusercontent.com/100230332/164761499-50a393f6-5623-4cb1-8de7-fa39bc50bf06.png)
+
+### XGBoost Confusion Matrix on Testing Data
+
+<img width="337" alt="Confusion Matrix" src="https://user-images.githubusercontent.com/100230332/164761695-ec39d4bb-c68c-449f-9e2b-09a6f8bcf8d3.png">
+
+
 
 ## Next Steps
 
