@@ -13,6 +13,8 @@ In Tanzania, 4 million people lack access to safe water according to water.org (
 ## Problem
 Nearly 50% of the water wells in Tanzania are non functional, according to the data I was provided. This is a major waste of both money and resources.  I built a predictive model for the Tanzania Water Project, a charity who is helping build water wells throughout the country.  By being able to predict which water wells are non functional and need to be rebuilt or repaired, I can help the charity properly allocate their precious resources.
 
+![tanzania-mount-kilimanjaro](https://user-images.githubusercontent.com/100230332/164615946-3aea9aef-8fcf-48c1-bd41-5138e1e65b6b.jpeg)
+
 ## Data
 My data was found on drivendata.com and has nearly 60,000 data points regarding water wells in Tanzania.  The data included whether or not a well was functional or non functional. 
 
