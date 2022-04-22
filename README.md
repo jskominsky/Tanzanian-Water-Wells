@@ -24,9 +24,18 @@ My data was found on drivendata.com and has nearly 60,000 data points regarding 
 ![functional_bar](https://user-images.githubusercontent.com/100230332/164612880-99a5705d-f86d-4f0f-960e-ac591d36dfdc.jpeg)
 
 ## Methods
-I used a variety of different classification models to improve the ability of the model to predict whether a water wall was functional or non functional.  My best performing model was my XGBoost Classifier, which had an accuracy of 86% when predicting functional or non functional.
+I used a variety of different classification models to improve the ability of the model to predict whether a water wall was functional or non functional. I started off with a Dummy Classifier to help establish a baseline to compare all future models against. After this I tried a variety of different algorithms hypertuning them where I felt necessary. The specific methods used are:
+- Logistic Regression
+- Logistic Regression with GridSearch to tune hyper parameters
+- Random Forest Classifier
+- XGBoost Random Forest Classifer  
+- XGBoost Random Forest Classifer with GridSearch to tune hyper parameters
+
+My best performing model was my XGBoost Classifier with default values, which had an accuracy of 86% on my training data, and an accuracy 84.9% on my training data, when predicting functional or non functional. The accuracy for just 'functional' status was 75.39% and the accuracy for just ' non functional' status was 93.99%
+
 
 <img width="337" alt="Confusion Matrix" src="https://user-images.githubusercontent.com/100230332/164613799-d6e0a7a0-f7a6-4ee8-a157-070eef0a944d.png">
+![Confusion Matrix Test Data](https://user-images.githubusercontent.com/100230332/164761499-50a393f6-5623-4cb1-8de7-fa39bc50bf06.png)
 
 ## Next Steps
 
