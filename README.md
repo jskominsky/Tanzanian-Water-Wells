@@ -10,3 +10,16 @@ In Tanzania, 4 million people lack access to safe water according to water.org (
 
 ![1700-1536x960](https://user-images.githubusercontent.com/100230332/164609235-dd4eb5f6-13d4-452f-9c42-8086a0957944.jpg)
 
+## Problem
+Nearly 50% of the water wells in Tanzania are non functional, according to the data I was provided. This is a major waste of both money and resources.  I built a predictive model for the Tanzania Water Project, a charity who is helping build water wells throughout the country.  By being able to predict which water wells are non functional and need to be rebuilt or repaired, I can help the charity properly allocate their precious resources.
+
+## Data
+My data was found on drivendata.com and has nearly 60,000 data points regarding water wells in Tanzania.  The data included whether or not a well was functional or non functional. 
+
+![functional_bar](https://user-images.githubusercontent.com/100230332/164612880-99a5705d-f86d-4f0f-960e-ac591d36dfdc.jpeg)
+
+## Methods
+I used a variety of different classification models to improve the ability of the model to predict whether a water wall was functional or non functional.  
+
+<img width="337" alt="Confusion Matrix" src="https://user-images.githubusercontent.com/100230332/164613799-d6e0a7a0-f7a6-4ee8-a157-070eef0a944d.png">
+
